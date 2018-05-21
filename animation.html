@@ -10,18 +10,6 @@
   <img src="shark.png" id="shark-icon" />
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    function animateRight() {
-      $("#shark-icon").animate({ marginLeft: "500"}, 1000, animateLeft);
-    }
-    function animateLeft() {
-      $("#shark-icon").animate({ marginLeft: "0"}, 1000, animateRight);
-    }
-
-    $(document).ready(function() {
-      animateRight();
-    });
-    
-  </script>
+  <script src="animation.js" type="text/javascript"></script>
 </body>
 </html>
